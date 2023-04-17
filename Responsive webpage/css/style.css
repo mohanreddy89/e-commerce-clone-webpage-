@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: rgb(43, 111, 238);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo img {
+    width: 150px;
+    padding: 0 23px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-style: bold;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 534px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 16px 0 43px;
+    padding: 0 10px;
+}
+
+.search button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+
+}
+
+.slider {
+    width: 100vw;
+    margin: 10px auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card {
+    background-color:white;
+    max-width: 85vw;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.card h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 45px;
+    cursor: pointer;
+}
+
+.card-item {
+    width: 10vw;
+}
+
+.lines {
+    cursor: pointer;
+}
+
+
+.container {
+    min-height: calc(100vh - 65px - 80px);
+    
+
+}
+
+
+footer {
+
+    height: 80px;
+    background-color: rgb(43, 111, 238);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
